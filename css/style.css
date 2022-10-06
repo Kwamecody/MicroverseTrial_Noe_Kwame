@@ -2,6 +2,7 @@ body {
     padding: 0;
     border: 0;
     box-sizing: border-box;
+    height: 100vh;
 }
 
 header {
@@ -175,4 +176,20 @@ p {
     font-size: 25px;
     color: white;
     padding: 30px;
+}
+
+.last-items {
+    border-top: 5px solid red;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+    background-color: #1a2235;
+    text-align: center;
+    gap: 200px;
+}
+
+.last-items p {
+    color: white;
+    font-size: 20px;
 }
