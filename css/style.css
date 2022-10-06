@@ -134,3 +134,45 @@ img {
 .other-projects a:hover {
     background-color: rgb(185, 58, 58);
 }
+
+footer {
+    height: 100vh;
+    background-color: #1a2235;
+}
+
+footer h1,
+p {
+    color: #fff;
+}
+
+.text {
+    padding-bottom: 80px;
+}
+
+.text p {
+    margin-top: -50px;
+}
+
+.footer-center-items {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-center-items h1 {
+    font-size: 80px;
+}
+
+.footer-center-items p {
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.social-handles a {
+    font-size: 25px;
+    color: white;
+    padding: 30px;
+}
