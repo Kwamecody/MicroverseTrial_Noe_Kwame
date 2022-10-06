@@ -5,7 +5,8 @@ body {
 }
 
 header {
-    position: sticky;
+    top: 0;
+    position: fixed;
     margin-top: -10px;
     padding-top: 15px;
     background-color: rgb(218, 44, 44);
@@ -13,6 +14,7 @@ header {
     padding: 20px;
     display: flex;
     flex-direction: row-reverse;
+    width: 100%;
 }
 
 header a {
@@ -20,7 +22,6 @@ header a {
     color: white;
     font-size: 30px;
 }
-
 
 a {
     text-decoration: none;
@@ -36,6 +37,10 @@ a p {
 img {
     height: 259px;
     width: 277px;
+}
+
+#navbar {
+    padding-right: 40px;
 }
 
 .row {
@@ -76,14 +81,12 @@ img {
 }
 
 .projects h2 {
-
     text-align: center;
     color: white;
     border-bottom: 2px solid white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 40px;
     padding-bottom: 30px;
-
 }
 
 .my-projects {
