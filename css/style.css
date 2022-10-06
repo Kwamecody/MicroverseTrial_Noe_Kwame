@@ -4,16 +4,17 @@ body {
     box-sizing: border-box;
 }
 
-header{
+header {
     margin-top: -10px;
     padding-top: 15px;
-    background-color: rgb(218, 44, 44);;
+    background-color: rgb(218, 44, 44);
+    ;
     padding: 20px;
     display: flex;
     flex-direction: row-reverse;
 }
 
-header a{
+header a {
     padding-right: 20px;
     color: white;
     font-size: 30px;
@@ -32,8 +33,8 @@ a p {
 }
 
 img {
-    height: 550px;
-    width: 400px;
+    height: 259px;
+    width: 277px;
 }
 
 .row {
@@ -59,11 +60,51 @@ img {
     margin-bottom: -5px;
 }
 
-.welcome-section p{
+.welcome-section p {
     padding-top: 15px;
     margin-top: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bolder;
     font-size: 30px;
-   color: rgb(218, 44, 44);
+    color: rgb(218, 44, 44);
+}
+
+.projects {
+    background-color: #45567d;
+    padding-top: 10px;
+}
+
+.projects h2 {
+
+    text-align: center;
+    color: white;
+    border-bottom: 2px solid white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    padding-bottom: 30px;
+
+}
+
+.my-projects {
+    padding-top: 20px;
+}
+
+.row {
+    gap: 40px;
+}
+
+.row.one {
+    margin-bottom: 30px;
+}
+
+.project-tile a p {
+    padding: 20px;
+    background-color: #1a2235;
+    color: white;
+    text-align: center;
+    margin-top: -5px;
+}
+
+.project-tile a p:hover {
+    background-color: rgba(54, 24, 24, 0.514);
 }
